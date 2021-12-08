@@ -685,7 +685,7 @@ def plot_free_energy(
         **kwargs)
     if legacy:
         return fig, ax
-    return fig, ax, misc
+    return fig, ax, misc, x, y, f
 
 
 def plot_contour(
